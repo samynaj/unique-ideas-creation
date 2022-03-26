@@ -1,4 +1,3 @@
-import { Children } from 'react'
 import './layout.css'
 import FooterComponent from '../footer/FooterComponent'
 import HeaderComponent from '../header/HeaderComponent'
