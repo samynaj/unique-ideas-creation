@@ -1,0 +1,66 @@
+.header{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.29);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.29);
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header-logo{
+    flex: 1.5;
+    color: #964577;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    justify-self: start;
+}
+.header-navbar{
+    flex: 4;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-navbar-item{
+    font-size: 12px;
+    cursor: pointer;
+}
+.header-navbar-item:hover{
+    transform: scale(1.2);
+    color: #964577;
+    font-weight: 700;
+}
+.header-right{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cart{
+    position: relative;
+}
+.cart-item-count{
+    position: absolute;
+    top: -3px;
+    right: -13px;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #964577;
+}
+.account{
+    font-size: 12px;
+}
