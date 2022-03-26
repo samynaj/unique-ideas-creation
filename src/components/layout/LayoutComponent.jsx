@@ -12,6 +12,8 @@ const LayoutComponent = ({children}) => {
             <span className="layout-categories-item">Men wears</span>
             <span className="layout-categories-item">Children</span>
             <span className="layout-categories-item">Two pieced</span>
+            <span className="layout-categories-item">Adire</span>
+            <span className="layout-categories-item">Ankara</span>
             <span className="layout-categories-item">Special Acessories</span>
         </div>
         {children}
